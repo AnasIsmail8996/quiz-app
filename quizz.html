@@ -1,0 +1,91 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-offline-docs-5.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+   
+       <!-- <div class="container">
+        <h1 class="quiz-heading">Started Quiz</h1>
+
+
+        <div>
+            <span id="timer" class='timer'></span>
+           
+        <p id="question"></p>
+        <div>
+            <label>
+                <input  type="radio" name="answer" title="answer"  value="1" >
+                <span id="option1"></span>
+            </label>
+        </div>
+    
+        <div>
+            <label>
+                <input  type="radio" name="answer" title="answer" value="2"  >
+                <span id="option2"></span>
+            </label>
+        </div>
+    
+        <div>
+            <label>
+                <input   type="radio" name="answer" title="answer"  value="3">
+                <span id="option3"></span>
+            </label>
+        </div>
+      <button  id="nextQuestions">Next</button>
+     
+       <button disabled id="nextButton" onclick="nextQuestions()">Next</button> 
+    </div> -->
+
+
+
+
+
+    <div class="container">
+        <h1 class="quiz-heading">Start Quiz</h1>
+        <div class="timer" id="timer"></div>
+        <div class="question-container">
+            <p class="question" id="question"></p>
+            <div class="options">
+                <label>
+                    <input type="radio" name="answer" value="1" title="answer" >
+                    <span class="option" id="option1"></span>
+                </label>
+                <label>
+                    <input type="radio" name="answer" value="2" title="answer">
+                    <span class="option" id="option2"></span>
+                </label>
+                <label>
+                    <input type="radio" name="answer" value="3" title="answer">
+                    <span class="option" id="option3"></span>
+                </label>
+            </div>
+            <button class="next-button" id="nextQuestions">Next</button>
+        </div>
+        <div id="result" ></div>
+        
+    </div>
+
+   
+  
+
+      
+
+    
+     
+        
+    
+     
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script src="quizz.js" ></script>
+
+</body>
+</html>
